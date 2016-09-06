@@ -3,10 +3,10 @@
 'use strict';
 
 var app = angular.module( 'ngcollapsibletree', []);
-app.directive( 'collapsibleTree', collapsibleTree );
+app.directive( 'collapsibletree', collapsibletree );
 
-collapsibleTree.$inject = [];
-function collapsibleTree () {
+collapsibletree.$inject = [];
+function collapsibletree () {
   return {
     restrict: 'E',
     scope: {
