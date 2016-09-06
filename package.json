@@ -2,7 +2,7 @@
   "name": "angular-d3-collapsible-tree",
   "version": "0.0.0",
   "description": "Angular d3 collapsible tree",
-  "main": "angular-d3-collapsible-tree.js",
+  "main": "src/angular-d3-collapsible-tree.js",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",

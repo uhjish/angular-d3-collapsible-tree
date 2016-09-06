@@ -2,7 +2,7 @@
  /* global angular, $, d3 */
 'use strict';
 
-var app = angular.module( 'renderteam.collapsibleTree', []);
+var app = angular.module( 'ngcollapsibletree', []);
 app.directive( 'collapsibleTree', collapsibleTree );
 
 collapsibleTree.$inject = [];
@@ -164,3 +164,7 @@ function collapsibleTree () {
 
   };
 }
+
+if (typeof module === 'object') {
+    module.exports='ngcollapsibletree'
+  }
